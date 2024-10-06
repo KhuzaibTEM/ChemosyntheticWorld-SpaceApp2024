@@ -80,30 +80,42 @@ button.animation:hover{
     position: absolute;
     top: 0;
     left: 0;
+    width: 100%;
     z-index: -1;
 }
 .video-bg2 {
     position: absolute;
-    top: 1050px;
+    top: 830px;
     left: 0;
+    width: 100%;
     z-index: -1;
 }
 .video-bg3 {
     position: absolute;
-    top: 2100px;
+    top: 1660px;
     left: 0;
+    width: 100%;
     z-index: -1;
 }
 .video-bg4 {
     position: absolute;
-    top: 3150px;
+    top: 2490px;
     left: 0;
+    width: 100%;
     z-index: -1;
 }
 .video-bg5 {
     position: absolute;
-    top: 3600px;
+    top: 3320px;
     left: 0;
+    width: 100%;
+    z-index: -1;
+}
+.video-bg6 {
+    position: absolute;
+    top: 4000px;
+    left: 0;
+    width: 100%;
     z-index: -1;
 }
 .sec {
@@ -643,34 +655,3 @@ section.vid video {
     z-index: 1000;
     pointer-events: none;
 }
-/* @media screen and (max-width: 1023px){
-    #banner .title {
-        font-size: 5em;
-    }
-    #intro .content-fit {
-        flex-direction: column;
-    }
-}
-@media screen and (max-width: 767px){
-    #banner .title {
-        font-size: 3em;
-    }
-    #intro .content-fit {
-        flex-direction: column;
-    }
-    .sec .number {
-        font-size: 5em;
-    }
-    .sec .content-fit .title {
-        font-size: 2em;
-    }
-    #description .content-fit {
-        padding-right: 0;
-    }
-    #team-info table {
-        font-size: 1em;
-    }
-    #container3D {
-        position: absolute;
-    }
-} */
