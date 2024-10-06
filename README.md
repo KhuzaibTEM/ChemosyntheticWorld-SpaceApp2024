@@ -1,7 +1,4 @@
 # ChemosyntheticWorld-SpaceApp2024
-Here's the updated README without the License, How to Run, and Overview sections:
-
----
 
 # Project ChemoGenesis
 
