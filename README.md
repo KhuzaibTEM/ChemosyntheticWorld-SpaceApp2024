@@ -1,7 +1,5 @@
 # ChemosyntheticWorld-SpaceApp2024
 
-# Project ChemoGenesis
-
 Welcome to **Project ChemoGenesis**, an immersive 3D exploration of planetary systems and deep-sea organisms, created as part of the **NASA Space Apps Challenge**.
 
 ## Features
