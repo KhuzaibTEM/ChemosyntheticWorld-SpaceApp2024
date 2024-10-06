@@ -51,20 +51,6 @@ const reRender3D = () => {
 };
 reRender3D();
 
-let star;
-function addStar() {
-    const geometry = new THREE.SphereGeometry(0.03, 12, 12);
-    const material = new THREE.MeshStandardMaterial({ color: 0xffffff });
-    star = new THREE.Mesh(geometry, material);
-    const [x, y, z] = Array(3)
-        .fill()
-        .map(() => THREE.MathUtils.randFloatSpread(100));
-
-    star.position.set(x, y, z);
-    scene.add(star);
-}
-// Array(550).fill().forEach(addStar);
-
 
 let arrPositionModel = [
     {
