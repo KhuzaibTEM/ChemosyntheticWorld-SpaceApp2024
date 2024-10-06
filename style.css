@@ -1,0 +1,676 @@
+
+@import url('https://fonts.cdnfonts.com/css/nasalization');
+@import url('https://fonts.cdnfonts.com/css/nasalization-2');
+@import url('https://fonts.cdnfonts.com/css/poppins');
+
+
+body {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    background-color: #004a79;
+    color: #37c3e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+*::-webkit-scrollbar {
+    width: 0;
+}
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.logo {
+    font-size: 15px;
+}
+a {
+    text-decoration: none;
+    color: #37c3e9;
+    
+}
+a:hover {
+    color:#97dcf0;
+}
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+}
+button.animation {
+    flex: 1;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 999px;
+    border: 5px solid #37c3e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-shadow: o 3px 5px rgba(0,0,0,0.25);
+    white-space: nowrap;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+    background: transparent;
+    background-repeat: repeat-x;
+    background-image: url(imgs/bg.png);
+    background-position: 0 -100%;
+    transition: 2.5s ease;
+}
+button.filled {
+    flex: 1;
+    padding: 10px 30px;
+    margin: 10px;
+    border-radius: 999px;
+    border: 5px solid #37c3e9;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    text-shadow: o 3px 5px rgba(0,0,0,0.25);
+    white-space: nowrap;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+    background: transparent;
+    background-repeat: repeat-x;
+    background-image: url(imgs/bg.png);
+}
+button.animation:hover{
+    background-position: 300% 100%;
+}
+.video-bg1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.video-bg2 {
+    position: absolute;
+    top: 1050px;
+    left: 0;
+    z-index: -1;
+}
+.video-bg3 {
+    position: absolute;
+    top: 2100px;
+    left: 0;
+    z-index: -1;
+}
+.video-bg4 {
+    position: absolute;
+    top: 3150px;
+    left: 0;
+    z-index: -1;
+}
+.video-bg5 {
+    position: absolute;
+    top: 3600px;
+    left: 0;
+    z-index: -1;
+}
+.sec {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.sec2 {
+    width: 100%;
+    min-height: 55vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.img-adj {
+    border-radius: 12px;
+    position: absolute;
+    top: 655px;
+    left: 600px;    
+}
+.img-adj2 {
+    border-radius: 12px;
+    position: absolute;
+    top: 1400px;
+    left: 600px;
+}
+.img-adj3 {
+    border-radius: 12px;
+    position: absolute;
+    top: 2155px;
+    left: 600px;
+}
+img {
+    border-radius: 12px;
+}
+.content-fit {
+    width: min(1200px, 90vw);
+    margin: auto;
+    min-height: 100vh;
+    position: relative;
+    padding-block: 10em;
+}
+header {
+    padding-block: 1em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10px;
+    backdrop-filter: blur(20px);
+    z-index: 100;
+    background-color: #352f2f11;
+    background-image: repeating-linear-gradient(
+        to right, transparent 0 500px, #eee1 500px 501px
+    );
+}
+header .content-fit {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: unset!important;
+    padding-block: unset!important;
+}
+header .content-fit nav ul{
+    display: flex;
+    gap: 2em;
+}
+
+#banner .title {
+    color: #02244b;
+    font-size: 10em;
+    font-family: 'Nasalization Rg', sans-serif;
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+#banner .title1 {
+    -webkit-text-stroke: 0.5px #37c3e9;
+    color: #ebebeb;
+    font-size: 7em;
+    font-family: 'Nasalization Rg', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-size: 10px;
+}
+#banner .title::before {
+    content: attr(data-before);
+    position: absolute;
+    top: 0.5em;
+    inset: 0.66em 0 0 0;
+    z-index: -1;
+    color: #05b4e4;
+}
+.sec .decorate {
+    position: absolute;
+}
+#intro .content-fit {
+    display: flex;
+    gap: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+#fur-description .content-fit {
+    display: flex;
+    gap: 30%;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec .number {
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 15em;
+    font-weight: bold;
+}
+.sec .content-fit .title {
+    font-family: 'Nasalization Rg', sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+}
+#description .content-fit {
+    padding-right: 30%;
+}
+#description .number {
+    font-size: 5em;
+}
+#description .title {
+    font-size: 7em;
+    font-weight: 500;
+}
+#team-info .content-fit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+#team-info table {
+    width: min(800px, 90vw);
+    padding-top: 2em;
+    font-size: 2em;
+    margin: auto;
+}
+#team-info table td {
+    padding-block: 0.5em;
+    border-bottom: 1px dashed #0fbfe7;
+}
+#team-info table td:nth-child(1) {
+    text-align: left;
+    font-weight: 500;
+}
+#team-info table td:nth-child(2) {
+    text-align: right;
+    font-weight: 200;
+}
+/* section.vid {
+    height: 1000vh;
+    position: relative;
+}
+
+section.vid div.holder {
+    position: sticky;
+    top: 0;
+}
+
+section.vid video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+} */
+.transparent-rectangle-src {
+    width: 350px; /* Set the desired width */
+    height: 200px; /* Set the desired height */
+    border: 4px solid rgb(255, 255, 255); /* Border size and color */
+    background-color: transparent; /* Semi-transparent background */
+    position: absolute; /* Absolute positioning */
+    top: 830px; /* Distance from the top */
+    left: 55px; /* Distance from the left */
+    border-radius: 5px;
+}
+.transparent-rectangle-src2 {
+    width: 350px; /* Set the desired width */
+    height: 180px; /* Set the desired height */
+    border: 4px solid rgb(255, 255, 255); /* Border size and color */
+    background-color: transparent; /* Semi-transparent background */
+    position: absolute; /* Absolute positioning */
+    top: 1600px; /* Distance from the top */
+    left: 55px; /* Distance from the left */
+    border-radius: 5px;
+}
+
+.transparent-rectangle-src3 {
+    width: 350px; /* Set the desired width */
+    height: 190px; /* Set the desired height */
+    border: 4px solid rgb(255, 255, 255); /* Border size and color */
+    background-color: transparent; /* Semi-transparent background */
+    position: absolute; /* Absolute positioning */
+    top: 2340px; /* Distance from the top */
+    left: 55px; /* Distance from the left */
+    border-radius: 5px;
+}
+.rectangle-background {
+    width: 1920px; /* Set the desired width */
+    height: 750px; /* Set the desired height */
+    background-color: #004a79; /* Semi-transparent background */
+    position: absolute; /* Absolute positioning */
+    top: 450px; /* Distance from the top */
+    left: 0px; /* Distance from the left */
+    border-radius: 5px;
+    z-index: 10px;
+}
+
+.transparent-rectangle {
+    width: 400px; /* Set the desired width */
+    height: 700px; /* Set the desired height */
+    border: 4px solid rgb(255, 255, 255); /* Border size and color */
+    background-color: transparent; /* Semi-transparent background */
+    position: absolute; /* Absolute positioning */
+    top: 350px; /* Distance from the top */
+    left: 30px; /* Distance from the left */
+    border-radius: 5px;
+}
+.transparent-rectangle2 {
+    width: 400px; /* Set the desired width */
+    height: 700px; /* Set the desired height */
+    border: 4px solid rgb(255, 255, 255); /* Border size and color */
+    background-color: transparent; /* Semi-transparent background */
+    position: absolute; /* Absolute positioning */
+    top: 1100px; /* Distance from the top */
+    left: 30px; /* Distance from the left */
+    border-radius: 5px;
+}
+.transparent-rectangle3 {
+    width: 400px; /* Set the desired width */
+    height: 700px; /* Set the desired height */
+    border: 4px solid rgb(255, 255, 255); /* Border size and color */
+    background-color: transparent; /* Semi-transparent background */
+    position: absolute; /* Absolute positioning */
+    top: 1850px; /* Distance from the top */
+    left: 30px; /* Distance from the left */
+    border-radius: 5px;
+}
+.planet-name {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    left: 155px;
+    top: 740px;
+    font-family: 'Nasalization Rg', sans-serif;
+}
+.planet-name2 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    left: 75px;
+    top: 1540px;
+    font-family: 'Nasalization Rg', sans-serif;
+}
+.planet-name3 {
+    position: absolute;
+    font-size: 50px;
+    font-weight: bold;
+    left: 127px;
+    top: 2280px;
+    font-family: 'Nasalization Rg', sans-serif;
+}
+.src-link a {
+    text-align: center;
+    position: absolute;
+    top: 840px;
+    left: 70px;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 50;
+}
+.src-link2 a{
+    text-align: center;
+    position: absolute;
+    top: 1615px;
+    left: 64px;
+    font-size: 32px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 50;
+}
+.src-link3 a{
+    text-align: center;
+    position: absolute;
+    top: 2365px;
+    left: 63px;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    z-index: 50;
+}
+
+.explore-txt {
+    position: absolute;
+    font-size: 20px;
+    left: 700px;
+    top: 340px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner-txt {
+    position: absolute;
+    left: 660px;
+    top: 370px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore-txt2 {
+    position: absolute;
+    font-size: 20px;
+    left: 1130px;
+    top: 340px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner-txt2 {
+    position: absolute;
+    left: 1050px;
+    top: 370px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore-txt3 {
+    position: absolute;
+    font-size: 20px;
+    left: 670px;
+    top: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner-txt3 {
+    position: absolute;
+    left: 660px;
+    top: 530px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore-txt4 {
+    position: absolute;
+    font-size: 20px;
+    left: 1100px;
+    top: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner-txt4 {
+    position: absolute;
+    left: 1070px;
+    top: 530px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore2-txt {
+    position: absolute;
+    font-size: 20px;
+    left: 660px;
+    top: 1090px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner2-txt {
+    position: absolute;
+    left: 630px;
+    top: 1120px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore2-txt2 {
+    position: absolute;
+    font-size: 20px;
+    left: 1100px;
+    top: 1090px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner2-txt2 {
+    position: absolute;
+    left: 1070px;
+    top: 1120px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore2-txt3 {
+    position: absolute;
+    font-size: 20px;
+    left: 660px;
+    top: 1240px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner2-txt3 {
+    position: absolute;
+    left: 630px;
+    top: 1270px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore2-txt4 {
+    position: absolute;
+    font-size: 20px;
+    left: 1100px;
+    top: 1240px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner2-txt4 {
+    position: absolute;
+    left: 1070px;
+    top: 1270px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore3-txt {
+    position: absolute;
+    font-size: 20px;
+    left: 660px;
+    top: 1840px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner3-txt {
+    position: absolute;
+    left: 630px;
+    top: 1870px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore3-txt2 {
+    position: absolute;
+    font-size: 20px;
+    left: 1120px;
+    top: 1840px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner3-txt2 {
+    position: absolute;
+    left: 1100px;
+    top: 1870px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore3-txt3 {
+    position: absolute;
+    font-size: 20px;
+    left: 660px;
+    top: 2010px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner3-txt3 {
+    position: absolute;
+    left: 630px;
+    top: 2040px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.explore3-txt4 {
+    position: absolute;
+    font-size: 20px;
+    left: 1120px;
+    top: 2010px;
+    font-family: 'Poppins', sans-serif;
+}
+.inner3-txt4 {
+    position: absolute;
+    left: 1100px;
+    top: 2040px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.tube-worm-txt {
+    font-weight: bold;
+    position: absolute;
+    font-size: 45px;
+    left: 50px;
+    top: 360px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.tube-worm-main-txt {
+    border: solid;
+    border-radius: 10px;
+    padding: 8px;
+    position: absolute;
+    font-size: 18px;
+    left: 50px;
+    top: 450px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.crab-txt {
+    font-weight: bold;
+    position: absolute;
+    font-size: 45px;
+    left: 50px;
+    top: 960px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.crab-main-txt {
+    border: solid;
+    border-radius: 10px;
+    padding: 8px;
+    position: absolute;
+    font-size: 18px;
+    left: 50px;
+    top: 1050px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+.formula-txt {
+    position: absolute;
+    font-size: 30px;
+    left: 410px;
+    top: 1780px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    border: solid;
+    border-radius: 10px;
+    padding: 8px;
+}
+#container3D {
+    position: fixed;
+    inset: 0;
+    z-index: 100;
+    pointer-events: none;
+}
+#container3D-v2 {
+    inset: 0;
+    z-index: 1000;
+    pointer-events: none;
+}
+/* @media screen and (max-width: 1023px){
+    #banner .title {
+        font-size: 5em;
+    }
+    #intro .content-fit {
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 767px){
+    #banner .title {
+        font-size: 3em;
+    }
+    #intro .content-fit {
+        flex-direction: column;
+    }
+    .sec .number {
+        font-size: 5em;
+    }
+    .sec .content-fit .title {
+        font-size: 2em;
+    }
+    #description .content-fit {
+        padding-right: 0;
+    }
+    #team-info table {
+        font-size: 1em;
+    }
+    #container3D {
+        position: absolute;
+    }
+} */
