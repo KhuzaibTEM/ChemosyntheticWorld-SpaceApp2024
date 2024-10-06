@@ -17,17 +17,8 @@ Welcome to **Project ChemoGenesis**, an immersive 3D exploration of planetary sy
 ## Technologies Used
 
 - **Three.js**: For rendering the 3D planet models and animations.
-- **GSAP**: For smooth animations and transitions of the 3D models.
 - **HTML5 & CSS3**: Structure and styling of the website, ensuring responsiveness and modern design.
 - **JavaScript**: For interactivity and integration of the 3D components.
-
-## Files Overview
-
-- **index.html**: Contains the homepage with a 3D model of a planet, where users can observe and interact with the animation.
-- **tour.html**: Displays information about chemosynthetic organisms, their habitats, and adaptations【7†source】.
-- **explore.html**: Highlights planetary exploration data, featuring Mars, Kepler-22b, and Europa【8†source】.
-- **style.css**: Provides styling for the website, including layout, fonts, and animations【9†source】.
-- **JavaScript Files**: Handles 3D rendering (e.g., using Three.js, GLTFLoader, OrbitControls) and dynamic animations of planets and sections.
 
 ## Contributions
 Contributions are welcome! Feel free to fork the project and submit a pull request. Make sure to include detailed descriptions of your changes.
