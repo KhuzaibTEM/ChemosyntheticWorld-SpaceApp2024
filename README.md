@@ -17,3 +17,5 @@ Welcome to **Project ChemoGenesis**, an immersive 3D exploration of planetary sy
 
 ## Contributions
 Contributions are welcome! Feel free to fork the project and submit a pull request. Make sure to include detailed descriptions of your changes.
+
+Note: The website works only on desktop, there will be issues for mobile users.
