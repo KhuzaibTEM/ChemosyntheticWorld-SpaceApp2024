@@ -77,45 +77,11 @@ button.animation:hover{
     background-position: 300% 100%;
 }
 .video-bg1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-}
-.video-bg2 {
-    position: absolute;
-    top: 830px;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-}
-.video-bg3 {
-    position: absolute;
-    top: 1660px;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-}
-.video-bg4 {
-    position: absolute;
-    top: 2490px;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-}
-.video-bg5 {
-    position: absolute;
-    top: 3320px;
-    left: 0;
-    width: 100%;
-    z-index: -1;
-}
-.video-bg6 {
-    position: absolute;
-    top: 4000px;
-    left: 0;
-    width: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
     z-index: -1;
 }
 .sec {
