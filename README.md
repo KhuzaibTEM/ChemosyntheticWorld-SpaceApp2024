@@ -6,7 +6,7 @@ Welcome to **Project ChemoGenesis**, an immersive 3D exploration of planetary sy
 
 - **3D Planetary Visualization**: Explore Mars, Kepler-22b, and Europa using dynamic 3D models rendered via Three.js.
 - **Organism Exploration**: Learn about chemosynthetic organisms like tube worms and Yeti crabs through interactive visualizations.
-- **Responsive Design**: The site is optimized for different devices and includes visually appealing transitions and effects.
+- **Responsive Design**: Includes visually appealing transitions and effects.
 - **Animations and Controls**: Interactive controls allow users to manipulate 3D models and explore scientific data in an engaging manner.
 
 ## Technologies Used
