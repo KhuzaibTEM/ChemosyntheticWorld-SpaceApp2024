@@ -95,8 +95,7 @@ button.animation:hover{
     overflow: hidden;
 }
 .sec2 {
-    width: 100%;
-    min-height: 55vh;
+    height: 390px;
     position: relative;
     display: flex;
     justify-content: center;
